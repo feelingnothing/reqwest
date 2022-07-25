@@ -61,7 +61,7 @@ trust-dns = ["trust-dns-resolver"]
 stream = ["tokio/fs", "tokio-util"]
 
 socks = ["tokio-socks"]
-tor = ["socks", "tokio-socks/tor"]
+tor = ["tokio-socks/tor"]
 
 # Internal (PRIVATE!) features used to aid testing.
 # Don't rely on these whatsoever. They may disappear at anytime.
